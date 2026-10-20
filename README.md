@@ -1,0 +1,41 @@
+CIS-165-W198
+
+Matthew Delos Santos
+
+Program 1: Diamond Pattern
+
+My plan is to write a separate cout statement for each of the seven lines. I will include the correct number of spaces before each group of asterisks so that the pattern forms a diamond. I will use endl to move to the next line and compare the program output with the assignment example.
+
+Program 2: Video Game Level Times
+
+My plan is to store the Level 1 time of 78 minutes and the Level 2 time of 144 minutes in separate integer variables. I will use integer division by 60 to calculate the hours and the remainder operator to calculate the remaining minutes. I will subtract the two original times to find the difference, then convert that difference into hours and minutes. I will store the calculations in variables before displaying the labeled results.
+
+
+3. Testing and Results
+
+Test 1: Diamond Pattern
+
+Expected result before running: Seven lines with the following spacing and asterisk counts:
+
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+Actual output: 
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+Match or correction: Initially, i created a triangle and then realized my mistake and needed to add symmetrical stars to make a diamond
+
+
+
+   
