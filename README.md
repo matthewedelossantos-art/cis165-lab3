@@ -136,6 +136,29 @@ Difference: 1 hours and 2 minutes
 
 Match or correction: Match 
 
+Code Explanations
+
+Diamond Program
+
+The diamond program uses seven cout statements, one for each line of the pattern. Spaces inside the quotation marks position the asterisks. The number of asterisks increases toward the middle line and decreases afterward. The program does not need loops or user input because every line is written explicitly.
+
+To check the spacing, I will compare each line against the assignment example and count its leading spaces and asterisks.
+
+Game Time Program
+
+Integer division (/) divides two integers and keeps the whole-number result. The remainder operator (%) gives the amount left over after division.
+
+For example, dividing 78 by 60 gives 1 whole hour, while 78 % 60 gives 18 remaining minutes. Together, these results represent 1 hour and 18 minutes.
+
+The Level 1 variable starts at 78 minutes. Dividing by 60 produces 1 hour, and taking the remainder produces 18 minutes.
+
+The Level 2 variable starts at 144 minutes. Dividing by 60 produces 2 hours, and taking the remainder produces 24 minutes.
+
+Subtracting the Level 1 time from the Level 2 time gives 66 minutes. Dividing 66 by 60 produces 1 hour, and the remainder is 6 minutes. Therefore, Level 2 took 1 hour and 6 minutes longer.
+
+
+Storing calculations in variables separates the calculation from the output. This makes the program easier to read, test, debug, and explain. It also follows the assignment's requirement to calculate the results before displaying them with cout.
+
 
 
    
